@@ -6,14 +6,14 @@
 # mods (and stale duplicates) are sitting in it.
 param(
     [Parameter(Mandatory = $true)][string]$PluginsDir,
-    [string]$Configuration = "Debug"
+    [string]$Configuration = "Release"   # ship what you publish; pass -Configuration Debug for a local ear-test
 )
 
 $ErrorActionPreference = "Stop"
 
 $src = Join-Path $PSScriptRoot "bin\$Configuration\net472\FishCues.dll"
 if (-not (Test-Path $src)) {
-    throw "Not built yet - run 'dotnet build' first (missing $src)."
+    throw "Not built yet - run 'dotnet build -c $Configuration' first (missing $src)."
 }
 if (-not (Test-Path $PluginsDir)) {
     throw "No such folder: $PluginsDir"

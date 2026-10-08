@@ -39,8 +39,8 @@ An unknown sound name leaves that cue silent and logs one line naming the key to
 ## Build
 
 ```powershell
-dotnet build                                              # .NET SDK + Valheim installed
-dotnet build -p:VALHEIM_INSTALL="D:\SteamLibrary\steamapps\common\Valheim"
+dotnet build -c Release                                   # .NET SDK + Valheim installed
+dotnet build -c Release -p:VALHEIM_INSTALL="D:\SteamLibrary\steamapps\common\Valheim"
 ```
 
 Non-obvious parts of `FishCues.csproj` are explained in its own comments.
