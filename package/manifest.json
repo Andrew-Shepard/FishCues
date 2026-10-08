@@ -1,0 +1,9 @@
+{
+  "name": "FishCues",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/Andrew-Shepard/FishCues",
+  "description": "Minimal client-side mod to only add audio fishing cues for Valheim",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2350"
+  ]
+}
