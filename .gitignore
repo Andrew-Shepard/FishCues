@@ -12,3 +12,10 @@ listen_wav/
 wet_list/
 wet_sfx/
 *.wav
+
+# Demo footage belongs on the release, not in git history - a re-record would strand the
+# old bytes in every clone forever.
+*.mp4
+*.mov
+*.webm
+releases/

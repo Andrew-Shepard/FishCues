@@ -9,6 +9,11 @@ No HUD, no panels, no keybinds, no auto-hooking. Client-side and read-only: `Try
 line length and catches are untouched, so fishing plays like vanilla. Works on vanilla servers, and
 cues on your own float only (float ownership via the `s_rodOwner` ZDO).
 
+## Demo
+
+[37 seconds of gameplay](https://github.com/Andrew-Shepard/FishCues/releases/download/v0.1.0/FishCues-demo.mp4)
+— the cues are the point, so play it with sound.
+
 ## Install
 
 Copy `FishCues.dll` into `<game>\BepInEx\plugins\`. Needs BepInEx 5.4.2350 (BepInExPack_Valheim).
