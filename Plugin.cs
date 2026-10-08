@@ -19,7 +19,7 @@ namespace FishCues
     {
         public const string PluginGuid = "online.buddycloud.fishcues";
         public const string PluginName = "FishCues";
-        public const string PluginVersion = "0.1.0";
+        public const string PluginVersion = "0.1.1";
 
         internal static ManualLogSource Log;
         internal static FishCuesPlugin Self;

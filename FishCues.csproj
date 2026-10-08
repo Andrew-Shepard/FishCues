@@ -5,7 +5,7 @@
     <RootNamespace>FishCues</RootNamespace>
     <TargetFramework>net472</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Deterministic>true</Deterministic>
     <DebugType>portable</DebugType>
     <NoWarn>$(NoWarn);MSB3277</NoWarn>
