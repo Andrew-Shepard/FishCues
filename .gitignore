@@ -1,0 +1,14 @@
+bin/
+obj/
+*.user
+.vs/
+
+# Never commit decoded game audio. These are extracted from Valheim's own FMOD banks
+# and are Iron Gate's copyright - reference them by name, do not redistribute them.
+audio16k/
+listen/
+listen_list/
+listen_wav/
+wet_list/
+wet_sfx/
+*.wav
